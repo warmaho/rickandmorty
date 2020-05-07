@@ -1,0 +1,26 @@
+{
+  "name": "RickAndMorty",
+  "version": "1.0.0",
+  "description": "Ejercicio CRUD React",
+  "scripts": {
+    "start": "pawjs --env=development start",
+    "build": "pawjs --env=production --config=prod.pawconfig.json build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/warmaho/rickandmorty"
+  },
+  "author": {
+    "name": "Marco Hernandez"
+  },
+  "engines": {
+    "node": ">=10.12.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@pawjs/less": "^2.1.4",
+    "@pawjs/pawjs": "^2.3.2",
+    "antd": "^3.26.16",
+    "rickmortyapi": "^0.2.2"
+  }
+}
